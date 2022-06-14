@@ -1,0 +1,73 @@
+#mainHeader {
+    margin: 0px;
+    padding: 20px;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: normal;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#mainHeaderidSpan {
+    margin: 0px;
+    padding: 0px;
+
+    color: #8a8888;
+}
+
+#data {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mainDataDiv {
+    margin: 20px;
+    padding: 0px;
+    flex-grow: 1;
+
+    display: inline-block;
+}
+
+#detailsDataDiv {
+    margin: 0px;
+    padding: 0px;
+    flex-grow: 1.7;
+
+    display: inline-flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+table {
+    margin: 10px;
+    padding: 0px;
+
+    max-width: 500px;
+    border: 1px solid #e4e4e4;
+}
+
+thead {
+    background-color: #e4e4e4;
+}
+
+.measureCell {
+    margin: 0px;
+    padding: 5px;
+
+    text-align: right;
+}
+
+.valueCell {
+    margin: 0px;
+    padding: 5px;
+
+    text-align: left;
+}

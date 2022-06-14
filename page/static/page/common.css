@@ -1,0 +1,105 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #e4e4e4;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #4980cc;
+}
+
+#brandDiv {
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    align-items: stretch;
+}
+
+#brandIcon {
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+}
+
+#brandText {
+    margin: 0px;
+    padding: 0px;
+    height: 42px;
+}
+
+#searchForm {
+    margin: 0px;
+    padding: 0px;
+    flex-basis: 40%;
+
+    display: flex;
+    align-items: center;
+
+}
+
+#searchInput {
+    margin: 0px;
+    padding: 5px;
+    padding-top: 9px;
+    font-size: 18px;
+    flex-basis: 100%;
+
+    border-style: hidden;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#searchIcon {
+    margin: 0px;
+    padding: 5px;
+    padding-right: 4px;
+    padding-top: 9px;
+    flex-basis: 0%;
+
+    background-color: #ffffff;
+    border-style: hidden;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#user {
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+    width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+
+main {
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0px;
+
+    background-color: #ffffff;
+}

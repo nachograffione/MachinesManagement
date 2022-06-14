@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'page/common.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'page/machine.css' %}">
+    <title>Unimap</title>
+</head>
+
+<body>
+    <div id="requestParams" hidden>{"id":"{{id}}"}</div>
+    <nav>
+        <div id="brandDiv">
+            <img src="{% static 'page/assets/logo35x35.png' %}" alt="" id="brandIcon">
+            <img src="{% static 'page/assets/unimap_blanco.svg' %}" alt="" id="brandText">
+        </div>
+        <form id="searchForm">
+            <input type="search" id="searchInput" placeholder="Buscar máquina" />
+            <span id="searchIcon">
+                <img src="{% static 'page/assets/search.svg' %}" alt="">
+            </span>
+        </form>
+        <span id="user">NN</span>
+    </nav>
+
+    <main>
+        <h1 id="mainHeader"></h1>
+        <div id="data">
+            <div id="mainDataDiv">
+            </div>
+            <div id="detailsDataDiv">
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="{% static 'page/common.js' %}"></script>
+    <script src="{% static 'page/machine.js' %}"></script>
+</body>
+
+</html>
